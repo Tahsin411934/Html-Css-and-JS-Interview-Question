@@ -71,26 +71,28 @@ HTML কমেন্ট শুরু হয় <!-- দিয়ে এবং �
                         এখানে href এবং target অ্যাট্রিবিউট, এবং তাদের মান যথাক্রমে "https://www.example.com" এবং "_blank"।</p>
 </details>
 <details>
-  <summary><strong>১০/  HTMLT5 এর নতুন উপাদান গুলো কি কি?</strong></summary>
-  <p>উত্তর : 
-HTML5 এর নতুন উপাদানগুলোর নাম:
-                        <article>
-                        <section>
-                        <nav>
-                        <aside>
-                        <header>
-                        <footer>
-                        <main>
-                        <figure>
-                        <figcaption>
-                        <mark>
-                        <time>
-                        <progress>
-                        <meter>
-                        <summary>
-                        <!-- <details> -->
-                        </p>
+  <summary><strong>১০/  HTML5 এর নতুন উপাদান গুলো কি কি?</strong></summary>
+  <p>উত্তর : HTML5 এর নতুন উপাদানগুলোর নাম:
+  <ul>
+    <li><code>&lt;article&gt;</code></li>
+    <li><code>&lt;section&gt;</code></li>
+    <li><code>&lt;nav&gt;</code></li>
+    <li><code>&lt;aside&gt;</code></li>
+    <li><code>&lt;header&gt;</code></li>
+    <li><code>&lt;footer&gt;</code></li>
+    <li><code>&lt;main&gt;</code></li>
+    <li><code>&lt;figure&gt;</code></li>
+    <li><code>&lt;figcaption&gt;</code></li>
+    <li><code>&lt;mark&gt;</code></li>
+    <li><code>&lt;time&gt;</code></li>
+    <li><code>&lt;progress&gt;</code></li>
+    <li><code>&lt;meter&gt;</code></li>
+    <li><code>&lt;summary&gt;</code></li>
+    <li><code>&lt;details&gt;</code></li>
+  </ul>
+  </p>
 </details>
+
 <details>
   <summary><strong>১১/ HTML5 এ স্থানাঙ্ক ভিত্তিক অবস্থান নির্ধারণের জন্য কোন API ব্যবহৃত হয়? </strong></summary>
   <p>উত্তর: জিওলোকেশন API।</p>
