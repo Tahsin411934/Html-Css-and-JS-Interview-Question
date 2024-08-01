@@ -358,177 +358,354 @@ CSS:
   <p>উত্তর: word-spacing প্রোপার্টি টেক্সটের শব্দগুলির মধ্যে ফাঁকা স্থান নির্ধারণ করে। এটি টেক্সটের পাঠযোগ্যতা উন্নত করতে ব্যবহৃত হয়। উদাহরণ: <code>word-spacing: 4px;</code></p>
 </details>
 
+## JavaScript Interview Questions
 
-Javascript
-1/ JavaScript কী এবং এটি কেন ব্যবহৃত হয়? 
-উত্তর: JavaScript একটি প্রোগ্রামিং ভাষা যা ওয়েবসাইটে ইন্টারঅ্যাকটিভ কনটেন্ট যুক্ত করতে ব্যবহৃত হয়। এটি HTML এবং CSS এর সাথে ব্যবহৃত হয়, ডাইনামিক ওয়েব পেজ তৈরি করতে এবং ব্যবহারকারীর সাথে ইন্টারঅ্যাকশন পরিচালনা করতে।
-2/ for লুপ কী এবং এটি কীভাবে কাজ করে?
-উত্তর: for লুপ একটি নির্দিষ্ট সংখ্যক বার কোড এক্সিকিউট করার জন্য ব্যবহৃত হয়। এটি সাধারণত পুনরাবৃত্তিমূলক কাজগুলির জন্য ব্যবহৃত হয়, যেখানে একটি কাউন্টার ভেরিয়েবল ব্যবহার করে লুপের প্রতিটি পুনরাবৃত্তি ট্র্যাক করা হয়।
-for (initialization; condition; increment/decrement) {
-    // কোড ব্লক যা এক্সিকিউট হবে
-}
-কীভাবে কাজ করে:
-Initialization (শুরু): এটি লুপের কাউন্টার ভেরিয়েবল সেট আপ করে। এটি লুপের শুরুতে একবার এক্সিকিউট হয়।
-Condition (শর্ত): প্রতিটি পুনরাবৃত্তির আগে এই শর্তটি চেক করা হয়। যদি শর্তটি সত্য হয়, তবে লুপটি চলতে থাকে। যদি শর্তটি মিথ্যা হয়, তবে লুপটি থেমে যায়।
-Increment/Decrement (বৃদ্ধি/হ্রাস): প্রতিটি পুনরাবৃত্তির পরে কাউন্টার ভেরিয়েবলটি বৃদ্ধি বা হ্রাস করা হয়।
-Code Block (কোড ব্লক): লুপের প্রতিটি পুনরাবৃত্তিতে এই কোড ব্লকটি এক্সিকিউট হয়।
-3/  if...else স্টেটমেন্ট কী এবং এটি কীভাবে ব্যবহৃত হয়?
-উত্তর: if...else স্টেটমেন্ট হল শর্তসাপেক্ষ লজিক্যাল স্টেটমেন্ট যা একটি শর্ত (condition) পরীক্ষা করে এবং সেই শর্তটি সত্য (true) হলে একটি কোড ব্লক এবং মিথ্যা (false) হলে অন্য একটি কোড ব্লক এক্সিকিউট করে। এটি প্রোগ্রামিংয়ে নির্দিষ্ট শর্ত অনুযায়ী বিভিন্ন ক্রিয়া সম্পাদনের জন্য ব্যবহৃত হয়।
-if (condition) {
-    // কোড ব্লক যা এক্সিকিউট হবে যদি condition সত্য হয়
-} else {
-    // কোড ব্লক যা এক্সিকিউট হবে যদি condition মিথ্যা হয়
-}
-কীভাবে কাজ করে:
-condition: এটি একটি এক্সপ্রেশন যা true বা false এ মূল্যায়ন করা হয়।
-যদি condition সত্য হয় (true), তবে if ব্লকের কোড এক্সিকিউট হয়।
-যদি condition মিথ্যা হয় (false), তবে else ব্লকের কোড এক্সিকিউট হয়।
-4/ ফাংশন কী এবং এটি কীভাবে তৈরি করা হয়? 
-উত্তর: ফাংশন হল কোডের একটি পুনর্ব্যবহারযোগ্য ব্লক যা একটি নির্দিষ্ট কাজ সম্পন্ন করে। এটি function কীওয়ার্ড ব্যবহার করে তৈরি করা হয়। উদাহরণ:
-function greet(name) {
-    return `Hello, ${name}!`;
-}
-5/ while লুপ কী এবং এটি কীভাবে কাজ করে?
-উত্তর:while লুপ একটি কন্ডিশনাল লুপ যা শর্ত (condition) সত্য (true) থাকলে কোড ব্লক বারবার এক্সিকিউট করে। এটি সাধারণত ব্যবহার করা হয় যখন লুপের পুনরাবৃত্তি সংখ্যা পূর্বনির্ধারিত নয়।
+<details>
+  <summary><strong>১/ JavaScript কী এবং এটি কেন ব্যবহৃত হয়?</strong></summary>
+  <p>উত্তর: JavaScript একটি প্রোগ্রামিং ভাষা যা ওয়েবসাইটে ইন্টারঅ্যাকটিভ কনটেন্ট যুক্ত করতে ব্যবহৃত হয়। এটি HTML এবং CSS এর সাথে ব্যবহৃত হয়, ডাইনামিক ওয়েব পেজ তৈরি করতে এবং ব্যবহারকারীর সাথে ইন্টারঅ্যাকশন পরিচালনা করতে।</p>
+</details>
+
+<details>
+  <summary><strong>২/ for লুপ কী এবং এটি কীভাবে কাজ করে?</strong></summary>
+  <p>উত্তর: for লুপ একটি নির্দিষ্ট সংখ্যক বার কোড এক্সিকিউট করার জন্য ব্যবহৃত হয়। এটি সাধারণত পুনরাবৃত্তিমূলক কাজগুলির জন্য ব্যবহৃত হয়, যেখানে একটি কাউন্টার ভেরিয়েবল ব্যবহার করে লুপের প্রতিটি পুনরাবৃত্তি ট্র্যাক করা হয়।
+  <pre>
+  <code>
+  for (initialization; condition; increment/decrement) {
+      // কোড ব্লক যা এক্সিকিউট হবে
+  }
+  </code>
+  </pre>
+  কীভাবে কাজ করে:
+  <ul>
+    <li><strong>Initialization (শুরু):</strong> এটি লুপের কাউন্টার ভেরিয়েবল সেট আপ করে। এটি লুপের শুরুতে একবার এক্সিকিউট হয়।</li>
+    <li><strong>Condition (শর্ত):</strong> প্রতিটি পুনরাবৃত্তির আগে এই শর্তটি চেক করা হয়। যদি শর্তটি সত্য হয়, তবে লুপটি চলতে থাকে। যদি শর্তটি মিথ্যা হয়, তবে লুপটি থেমে যায়।</li>
+    <li><strong>Increment/Decrement (বৃদ্ধি/হ্রাস):</strong> প্রতিটি পুনরাবৃত্তির পরে কাউন্টার ভেরিয়েবলটি বৃদ্ধি বা হ্রাস করা হয়।</li>
+    <li><strong>Code Block (কোড ব্লক):</strong> লুপের প্রতিটি পুনরাবৃত্তিতে এই কোড ব্লকটি এক্সিকিউট হয়।</li>
+  </ul>
+  </p>
+</details>
+
+<details>
+  <summary><strong>৩/ if...else স্টেটমেন্ট কী এবং এটি কীভাবে ব্যবহৃত হয়?</strong></summary>
+  <p>উত্তর: if...else স্টেটমেন্ট হল শর্তসাপেক্ষ লজিক্যাল স্টেটমেন্ট যা একটি শর্ত (condition) পরীক্ষা করে এবং সেই শর্তটি সত্য (true) হলে একটি কোড ব্লক এবং মিথ্যা (false) হলে অন্য একটি কোড ব্লক এক্সিকিউট করে। এটি প্রোগ্রামিংয়ে নির্দিষ্ট শর্ত অনুযায়ী বিভিন্ন ক্রিয়া সম্পাদনের জন্য ব্যবহৃত হয়।
+  <pre>
+  <code>
+  if (condition) {
+      // কোড ব্লক যা এক্সিকিউট হবে যদি condition সত্য হয়
+  } else {
+      // কোড ব্লক যা এক্সিকিউট হবে যদি condition মিথ্যা হয়
+  }
+  </code>
+  </pre>
+  কীভাবে কাজ করে:
+  <ul>
+    <li><strong>condition:</strong> এটি একটি এক্সপ্রেশন যা true বা false এ মূল্যায়ন করা হয়।</li>
+    <li>যদি condition সত্য হয় (true), তবে if ব্লকের কোড এক্সিকিউট হয়।</li>
+    <li>যদি condition মিথ্যা হয় (false), তবে else ব্লকের কোড এক্সিকিউট হয়।</li>
+  </ul>
+  </p>
+</details>
+
+<details>
+  <summary><strong>৪/ ফাংশন কী এবং এটি কীভাবে তৈরি করা হয়?</strong></summary>
+  <p>উত্তর: ফাংশন হল কোডের একটি পুনর্ব্যবহারযোগ্য ব্লক যা একটি নির্দিষ্ট কাজ সম্পন্ন করে। এটি function কীওয়ার্ড ব্যবহার করে তৈরি করা হয়। উদাহরণ:
+  <pre>
+  <code>
+  function greet(name) {
+      return `Hello, ${name}!`;
+  }
+  </code>
+  </pre>
+  </p>
+</details>
+
+<details>
+  <summary><strong>৫/ while লুপ কী এবং এটি কীভাবে কাজ করে?</strong></summary>
+  <p>উত্তর: while লুপ একটি কন্ডিশনাল লুপ যা শর্ত (condition) সত্য (true) থাকলে কোড ব্লক বারবার এক্সিকিউট করে। এটি সাধারণত ব্যবহার করা হয় যখন লুপের পুনরাবৃত্তি সংখ্যা পূর্বনির্ধারিত নয়।
+  <pre>
+  <code>
   let i = 0;
-while (i < 5) {
-    console.log(i);
-    i++;
-}
-কীভাবে কাজ করে:
-condition পরীক্ষা করা হয়।
-যদি condition সত্য হয়, কোড ব্লক এক্সিকিউট হয়।
-এরপর পুনরায় condition পরীক্ষা করা হয়।
-শর্ত মিথ্যা হলে লুপটি থামে।
-6/ Array methods (push, pop, shift, unshift, splice) মেথড কী এবং এটি কীভাবে কাজ করে?
-উত্তর: push() মেথড একটি অ্যারের শেষে একটি বা একাধিক উপাদান যোগ করে এবং অ্যারের নতুন দৈর্ঘ্য ফেরত দেয়। উদাহরণ:
-let fruits = ["apple", "banana"];
-fruits.push("orange");
-pop() মেথড একটি অ্যারের শেষ উপাদানটি সরিয়ে ফেলে এবং সেই উপাদানটি ফেরত দেয়। উদাহরণ:
-let fruits = ["apple", "banana", "orange"];
-let lastFruit = fruits.pop();
- shift() মেথড একটি অ্যারের প্রথম উপাদানটি সরিয়ে ফেলে এবং সেই উপাদানটি ফেরত দেয়। উদাহরণ: 
-let fruits = ["apple", "banana", "orange"];
-let firstFruit = fruits.shift();
- unshift() মেথড একটি অ্যারের শুরুতে একটি বা একাধিক উপাদান যোগ করে এবং অ্যারের নতুন দৈর্ঘ্য ফেরত দেয়। উদাহরণ:
-let fruits = ["banana", "orange"];
-fruits.unshift("apple");
-splice() মেথড একটি অ্যারের নির্দিষ্ট অবস্থানে উপাদান যোগ বা সরাতে ব্যবহৃত হয়। এটি উপাদান সরিয়ে ফেলে এবং নতুন উপাদান যোগ করতে পারে। উদাহরণ:
-let fruits = ["apple", "banana", "orange"];
-fruits.splice(1, 1, "kiwi");
-7/ DOM কী এবং DOM ম্যানিপুলেশন কীভাবে কাজ করে?
-উত্তর: DOM (Document Object Model) হল একটি কাঠামোগত উপস্থাপন যা HTML বা XML ডকুমেন্টকে একটি অবজেক্ট হিসেবে বর্ণনা করে। DOM ব্যবহার করে JavaScript ডকুমেন্টের বিভিন্ন উপাদান (elements) এবং বৈশিষ্ট্য (attributes) পরিবর্তন, যোগ, অথবা মুছে ফেলতে পারে।
-DOM ম্যানিপুলেশন কীভাবে কাজ করে:
-DOM অ্যাক্সেস: JavaScript ডকুমেন্টের উপাদানগুলিতে অ্যাক্সেস করতে বিভিন্ন মেথড ব্যবহার করে, যেমন getElementById(), getElementsByClassName(), এবং querySelector()।
-উপাদান পরিবর্তন: একটি উপাদানের বিষয়বস্তু (content) পরিবর্তন করতে innerHTML, innerText, অথবা textContent ব্যবহার করা হয়।
+  while (i < 5) {
+      console.log(i);
+      i++;
+  }
+  </code>
+  </pre>
+  কীভাবে কাজ করে:
+  <ul>
+    <li>condition পরীক্ষা করা হয়।</li>
+    <li>যদি condition সত্য হয়, কোড ব্লক এক্সিকিউট হয়।</li>
+    <li>এরপর পুনরায় condition পরীক্ষা করা হয়।</li>
+    <li>শর্ত মিথ্যা হলে লুপটি থামে।</li>
+  </ul>
+  </p>
+</details>
 
-Example: 
-document.getElementById("myElement").innerText = "New Text";
-স্টাইল পরিবর্তন: CSS স্টাইল পরিবর্তন করতে style প্রোপার্টি ব্যবহার করা হয়।
-Example
-document.getElementById("myElement").style.color = "red";
+<details>
+  <summary><strong>৬/ Array methods (push, pop, shift, unshift, splice) মেথড কী এবং এটি কীভাবে কাজ করে?</strong></summary>
+  <p>উত্তর:
+  <ul>
+    <li><strong>push():</strong> মেথড একটি অ্যারের শেষে একটি বা একাধিক উপাদান যোগ করে এবং অ্যারের নতুন দৈর্ঘ্য ফেরত দেয়। উদাহরণ:
+    <pre>
+    <code>
+    let fruits = ["apple", "banana"];
+    fruits.push("orange");
+    </code>
+    </pre>
+    </li>
+    <li><strong>pop():</strong> মেথড একটি অ্যারের শেষ উপাদানটি সরিয়ে ফেলে এবং সেই উপাদানটি ফেরত দেয়। উদাহরণ:
+    <pre>
+    <code>
+    let fruits = ["apple", "banana", "orange"];
+    let lastFruit = fruits.pop();
+    </code>
+    </pre>
+    </li>
+    <li><strong>shift():</strong> মেথড একটি অ্যারের প্রথম উপাদানটি সরিয়ে ফেলে এবং সেই উপাদানটি ফেরত দেয়। উদাহরণ:
+    <pre>
+    <code>
+    let fruits = ["apple", "banana", "orange"];
+    let firstFruit = fruits.shift();
+    </code>
+    </pre>
+    </li>
+    <li><strong>unshift():</strong> মেথড একটি অ্যারের শুরুতে একটি বা একাধিক উপাদান যোগ করে এবং অ্যারের নতুন দৈর্ঘ্য ফেরত দেয়। উদাহরণ:
+    <pre>
+    <code>
+    let fruits = ["banana", "orange"];
+    fruits.unshift("apple");
+    </code>
+    </pre>
+    </li>
+    <li><strong>splice():</strong> মেথড একটি অ্যারের নির্দিষ্ট অবস্থানে উপাদান যোগ বা সরাতে ব্যবহৃত হয়। এটি উপাদান সরিয়ে ফেলে এবং নতুন উপাদান যোগ করতে পারে। উদাহরণ:
+    <pre>
+    <code>
+    let fruits = ["apple", "banana", "orange"];
+    fruits.splice(1, 1, "kiwi");
+    </code>
+    </pre>
+    </li>
+  </ul>
+  </p>
+</details>
 
-
-নতুন উপাদান যোগ করা: নতুন HTML উপাদান তৈরি করে এবং এটি DOM এ যুক্ত করতে createElement() এবং appendChild() ব্যবহার করা হয়।
-Example
-let newDiv = document.createElement("div");
+<details>
+  <summary><strong>7/ DOM কী এবং DOM ম্যানিপুলেশন কীভাবে কাজ করে?</strong></summary>
+  <p>
+    DOM (Document Object Model) হল একটি কাঠামোগত উপস্থাপন যা HTML বা XML ডকুমেন্টকে একটি অবজেক্ট হিসেবে বর্ণনা করে। DOM ব্যবহার করে JavaScript ডকুমেন্টের বিভিন্ন উপাদান (elements) এবং বৈশিষ্ট্য (attributes) পরিবর্তন, যোগ, অথবা মুছে ফেলতে পারে।
+  </p>
+  <p><strong>DOM ম্যানিপুলেশন কীভাবে কাজ করে:</strong></p>
+  <ul>
+    <li>
+      <strong>DOM অ্যাক্সেস:</strong> JavaScript ডকুমেন্টের উপাদানগুলিতে অ্যাক্সেস করতে বিভিন্ন মেথড ব্যবহার করে, যেমন <code>getElementById()</code>, <code>getElementsByClassName()</code>, এবং <code>querySelector()</code>.
+      <p><strong>উদাহরণ:</strong></p>
+      <pre><code>document.getElementById("myElement").innerText = "New Text";</code></pre>
+    </li>
+    <li>
+      <strong>উপাদান পরিবর্তন:</strong> একটি উপাদানের বিষয়বস্তু (content) পরিবর্তন করতে <code>innerHTML</code>, <code>innerText</code>, অথবা <code>textContent</code> ব্যবহার করা হয়।
+      <p><strong>উদাহরণ:</strong></p>
+      <pre><code>document.getElementById("myElement").innerText = "New Text";</code></pre>
+    </li>
+    <li>
+      <strong>স্টাইল পরিবর্তন:</strong> CSS স্টাইল পরিবর্তন করতে <code>style</code> প্রোপার্টি ব্যবহার করা হয়।
+      <p><strong>উদাহরণ:</strong></p>
+      <pre><code>document.getElementById("myElement").style.color = "red";</code></pre>
+    </li>
+    <li>
+      <strong>নতুন উপাদান যোগ করা:</strong> নতুন HTML উপাদান তৈরি করে এবং এটি DOM এ যুক্ত করতে <code>createElement()</code> এবং <code>appendChild()</code> ব্যবহার করা হয়।
+      <p><strong>উদাহরণ:</strong></p>
+      <pre><code>let newDiv = document.createElement("div");
 newDiv.innerText = "This is a new div!";
-document.body.appendChild(newDiv);
-ইভেন্ট হ্যান্ডলিং: DOM ম্যানিপুলেশন ব্যবহার করে ইভেন্ট লিসনার যোগ করা হয়, যেমন ক্লিক ইভেন্ট।
-Example: 
-document.getElementById("myButton").addEventListener("click", function() {
+document.body.appendChild(newDiv);</code></pre>
+    </li>
+    <li>
+      <strong>ইভেন্ট হ্যান্ডলিং:</strong> DOM ম্যানিপুলেশন ব্যবহার করে ইভেন্ট লিসনার যোগ করা হয়, যেমন ক্লিক ইভেন্ট।
+      <p><strong>উদাহরণ:</strong></p>
+      <pre><code>document.getElementById("myButton").addEventListener("click", function() {
     alert("Button clicked!");
-});
-8/ JavaScript-এ ইভেন্ট হ্যান্ডলিং কী এবং এটি কীভাবে কাজ করে?
-উত্তর: ইভেন্ট হ্যান্ডলিং হল একটি প্রক্রিয়া যা ব্যবহারকারীর কার্যকলাপ (যেমন ক্লিক, কীবোর্ড প্রেস, মাউস হভার ইত্যাদি) অনুযায়ী JavaScript কোড এক্সিকিউট করতে ব্যবহৃত হয়। এটি ওয়েব পেজের ইন্টারঅ্যাকটিভিটি এবং ব্যবহারকারীর অভিজ্ঞতা উন্নত করতে সাহায্য করে।
-কীভাবে কাজ করে:
-ইভেন্ট Listener যোগ করা: HTML উপাদানে একটি ইভেন্ট Listener যোগ করা হয় যা নির্দিষ্ট ইভেন্ট সংঘটিত হলে একটি ফাংশন কার্যকর করবে।
-Example
-document.getElementById("myButton").addEventListener("click", function() {
+});</code></pre>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>8/ JavaScript-এ ইভেন্ট হ্যান্ডলিং কী এবং এটি কীভাবে কাজ করে?</strong></summary>
+  <p>
+    ইভেন্ট হ্যান্ডলিং হল একটি প্রক্রিয়া যা ব্যবহারকারীর কার্যকলাপ (যেমন ক্লিক, কীবোর্ড প্রেস, মাউস হভার ইত্যাদি) অনুযায়ী JavaScript কোড এক্সিকিউট করতে ব্যবহৃত হয়। এটি ওয়েব পেজের ইন্টারঅ্যাকটিভিটি এবং ব্যবহারকারীর অভিজ্ঞতা উন্নত করতে সাহায্য করে।
+  </p>
+  <p><strong>কীভাবে কাজ করে:</strong></p>
+  <ul>
+    <li>
+      <strong>ইভেন্ট Listener যোগ করা:</strong> HTML উপাদানে একটি ইভেন্ট Listener যোগ করা হয় যা নির্দিষ্ট ইভেন্ট সংঘটিত হলে একটি ফাংশন কার্যকর করবে।
+      <p><strong>উদাহরণ:</strong></p>
+      <pre><code>document.getElementById("myButton").addEventListener("click", function() {
     alert("Button clicked!");
-});
-ইভেন্ট টাইপ: বিভিন্ন ধরনের ইভেন্ট আছে, যেমন:
-click: একটি উপাদানে ক্লিক করলে।
-mouseover: মাউস উপাদানের উপর এলে।
-keydown: কীবোর্ডের কী প্রেস করলে।
-ইভেন্ট অবজেক্ট: যখন একটি ইভেন্ট সংঘটিত হয়, একটি ইভেন্ট অবজেক্ট তৈরি হয় যা ইভেন্টের সম্পর্কে তথ্য ধারণ করে (যেমন কনটেক্সট, টার্গেট উপাদান ইত্যাদি)।
-Example
-document.getElementById("myButton").addEventListener("click", function(event) {
+});</code></pre>
+    </li>
+    <li>
+      <strong>ইভেন্ট টাইপ:</strong> বিভিন্ন ধরনের ইভেন্ট আছে, যেমন:
+      <ul>
+        <li><code>click</code>: একটি উপাদানে ক্লিক করলে।</li>
+        <li><code>mouseover</code>: মাউস উপাদানের উপর এলে।</li>
+        <li><code>keydown</code>: কীবোর্ডের কী প্রেস করলে।</li>
+      </ul>
+    </li>
+    <li>
+      <strong>ইভেন্ট অবজেক্ট:</strong> যখন একটি ইভেন্ট সংঘটিত হয়, একটি ইভেন্ট অবজেক্ট তৈরি হয় যা ইভেন্টের সম্পর্কে তথ্য ধারণ করে (যেমন কনটেক্সট, টার্গেট উপাদান ইত্যাদি)।
+      <p><strong>উদাহরণ:</strong></p>
+      <pre><code>document.getElementById("myButton").addEventListener("click", function(event) {
     console.log(event.target); // টার্গেট উপাদান প্রদর্শন করবে
-});
-ফাংশন কার্যকর করা: যখন ইভেন্টটি সংঘটিত হয়, সংশ্লিষ্ট ফাংশনটি কার্যকর হয়, যা ব্যবহারকারীর ইন্টারঅ্যাকশনের ভিত্তিতে নির্দিষ্ট কার্যক্রম সম্পাদন করে।
-9/ getElementById() এবং querySelector() এর মধ্যে পার্থক্য কী?
-উত্তর: getElementById() শুধুমাত্র একটি নির্দিষ্ট ID-এর জন্য ব্যবহৃত হয় এবং একটি একক HTML উপাদান ফেরত দেয়। অন্যদিকে, querySelector() CSS সিলেক্টর ব্যবহার করে, একটি উপাদান ফেরত দেয় এবং যদি একাধিক উপাদান থাকে তবে প্রথমটিকে নির্বাচন করে। querySelectorAll() সব মিলে উপাদান ফেরত দেয়।
-10/ innerHTML এবং innerText এর মধ্যে পার্থক্য কী?
-উত্তর: getElementById() শুধুমাত্র একটি নির্দিষ্ট ID-এর জন্য ব্যবহৃত হয় এবং একটি একক HTML উপাদান ফেরত দেয়। অন্যদিকে,
- querySelector() CSS সিলেক্টর ব্যবহার করে, একটি উপাদান ফেরত দেয় এবং যদি একাধিক উপাদান থাকে তবে প্রথমটিকে নির্বাচন করে। querySelectorAll() সব মিলে উপাদান ফেরত দেয়।
-let element = document.getElementById("myElement");
+});</code></pre>
+    </li>
+    <li>
+      <strong>ফাংশন কার্যকর করা:</strong> যখন ইভেন্টটি সংঘটিত হয়, সংশ্লিষ্ট ফাংশনটি কার্যকর হয়, যা ব্যবহারকারীর ইন্টারঅ্যাকশনের ভিত্তিতে নির্দিষ্ট কার্যক্রম সম্পাদন করে।
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>9/ getElementById() এবং querySelector() এর মধ্যে পার্থক্য কী?</strong></summary>
+  <p>
+    <strong>getElementById()</strong>: শুধুমাত্র একটি নির্দিষ্ট ID-এর জন্য ব্যবহৃত হয় এবং একটি একক HTML উপাদান ফেরত দেয়।
+    <br>
+    <strong>querySelector()</strong>: CSS সিলেক্টর ব্যবহার করে, একটি উপাদান ফেরত দেয় এবং যদি একাধিক উপাদান থাকে তবে প্রথমটিকে নির্বাচন করে। <code>querySelectorAll()</code> সব মিলে উপাদান ফেরত দেয়।
+  </p>
+</details>
+
+<details>
+  <summary><strong>10/ innerHTML এবং innerText এর মধ্যে পার্থক্য কী?</strong></summary>
+  <p>
+    <strong>innerHTML</strong>: HTML ট্যাগ সহ পূর্ণ HTML কনটেন্ট ফেরত দেয় এবং সেট করে।
+    <br>
+    <strong>innerText</strong>: শুধুমাত্র টেক্সট ফেরত দেয় এবং সেট করে, HTML ট্যাগ বাদ দিয়ে।
+    <p><strong>উদাহরণ:</strong></p>
+    <pre><code>let element = document.getElementById("myElement");
 element.innerHTML = "<strong>Hello</strong>"; // HTML ট্যাগ অন্তর্ভুক্ত
 element.innerText = "Hello"; // শুধুমাত্র টেক্সট
+</code></pre>
+  </p>
+</details>
+<details>
+  <summary><strong>11/ addEventListener() এবং onclick এর মধ্যে পার্থক্য কী?</strong></summary>
+  <p>
+    <strong>addEventListener():</strong>
+    <ul>
+      <li>এটি একটি মেথড যা একাধিক ইভেন্ট লিসনার যোগ করতে দেয়। একাধিক ইভেন্ট একই উপাদানে যুক্ত করা সম্ভব।</li>
+      <li>এটি বিভিন্ন ধরনের ইভেন্টের জন্য ব্যবহার করা যায় এবং কাস্টম ইভেন্টও সমর্থন করে।</li>
+      <li>ইভেন্ট লিসনারগুলি মুছতে <code>removeEventListener()</code> ব্যবহার করা যায়। </li>
+    </ul>
+    <strong>onclick:</strong>
+    <ul>
+      <li>এটি একটি প্রোপার্টি যা শুধুমাত্র একটি ইভেন্ট লিসনার সংযুক্ত করে। পূর্ববর্তী লিসনার মুছে যাবে যদি নতুন একটি যুক্ত হয়।</li>
+      <li>এটি শুধুমাত্র ক্লিক ইভেন্টের জন্য ব্যবহৃত হয়।</li>
+    </ul>
+  </p>
+</details>
 
-11/  addEventListener() এবং onclick এর মধ্যে পার্থক্য কী?
-উত্তর: addEventListener():
-এটি একটি মেথড যা একাধিক ইভেন্ট লিসনার যোগ করতে দেয়। একাধিক ইভেন্ট একই উপাদানে যুক্ত করা সম্ভব।
-এটি বিভিন্ন ধরনের ইভেন্টের জন্য ব্যবহার করা যায় এবং কাস্টম ইভেন্টও সমর্থন করে।
-ইভেন্ট লিসনারগুলি মুছতে removeEventListener() ব্যবহার করা যায়।
-onclick 
-এটি একটি প্রোপার্টি যা শুধুমাত্র একটি ইভেন্ট লিসনার সংযুক্ত করে। পূর্ববর্তী লিসনার মুছে যাবে যদি নতুন একটি যুক্ত হয়।
-এটি শুধুমাত্র ক্লিক ইভেন্টের জন্য ব্যবহৃত হয়।
-12/ let এবং const কী এবং এগুলি কীভাবে ব্যবহৃত হয়?
- উত্তর: let এবং const হল ES6 এর নতুন কীওয়ার্ড। let ব্লকের স্কোপে ভেরিয়েবল ডিক্লেয়ার করতে ব্যবহৃত হয় এবং const কনস্ট্যান্ট ভেরিয়েবল ডিক্লেয়ার করতে ব্যবহৃত হয় যা পুনরায় নির্ধারণ করা যায় না।
-13/ Arrow ফাংশন কী এবং এটি কীভাবে কাজ করে? 
-উত্তর: Arrow ফাংশন হল ES6 এর একটি নতুন ফাংশন সিনট্যাক্স যা সংক্ষিপ্ত এবং আরও সংক্ষিপ্ত। উদাহরণ: const add = (a, b) => a + b;
-14/ Template literals কী এবং এটি কীভাবে ব্যবহৃত হয়?
- উত্তর: Template literals হল ES6 এর একটি নতুন ফিচার যা ব্যাকটিক (`) ব্যবহার করে স্ট্রিং ইন্টারপোলেশন এবং মাল্টি-লাইন স্ট্রিং তৈরি করতে ব্যবহৃত হয়। উদাহরণ:
-const name = "John";
-const greeting = `Hello, ${name}!`;
-15/ Default parameters কী এবং এটি কীভাবে কাজ করে? 
-উত্তর: Default parameters একটি ফাংশনের প্যারামিটারগুলির জন্য ডিফল্ট মান নির্ধারণ করে যদি কোনো মান পাস না করা হয়। উদাহরণ:
- function greet(name = "Guest") {
+<details>
+  <summary><strong>12/ let এবং const কী এবং এগুলি কীভাবে ব্যবহৃত হয়?</strong></summary>
+  <p>
+    <strong>let</strong> এবং <strong>const</strong> হল ES6 এর নতুন কীওয়ার্ড। 
+    <ul>
+      <li><strong>let</strong> ব্লকের স্কোপে ভেরিয়েবল ডিক্লেয়ার করতে ব্যবহৃত হয়।</li>
+      <li><strong>const</strong> কনস্ট্যান্ট ভেরিয়েবল ডিক্লেয়ার করতে ব্যবহৃত হয় যা পুনরায় নির্ধারণ করা যায় না।</li>
+    </ul>
+  </p>
+</details>
+
+<details>
+  <summary><strong>13/ Arrow ফাংশন কী এবং এটি কীভাবে কাজ করে?</strong></summary>
+  <p>
+    <strong>Arrow ফাংশন</strong> হল ES6 এর একটি নতুন ফাংশন সিনট্যাক্স যা সংক্ষিপ্ত এবং আরও সংক্ষিপ্ত। উদাহরণ:
+    <pre><code>const add = (a, b) => a + b;</code></pre>
+  </p>
+</details>
+
+<details>
+  <summary><strong>14/ Template literals কী এবং এটি কীভাবে ব্যবহৃত হয়?</strong></summary>
+  <p>
+    <strong>Template literals</strong> হল ES6 এর একটি নতুন ফিচার যা ব্যাকটিক (<code>&grave;</code>) ব্যবহার করে স্ট্রিং ইন্টারপোলেশন এবং মাল্টি-লাইন স্ট্রিং তৈরি করতে ব্যবহৃত হয়। উদাহরণ:
+    <pre><code>const name = "John";
+const greeting = `Hello, ${name}!`;</code></pre>
+  </p>
+</details>
+
+<details>
+  <summary><strong>15/ Default parameters কী এবং এটি কীভাবে কাজ করে?</strong></summary>
+  <p>
+    <strong>Default parameters</strong> একটি ফাংশনের প্যারামিটারগুলির জন্য ডিফল্ট মান নির্ধারণ করে যদি কোনো মান পাস না করা হয়। উদাহরণ:
+    <pre><code>function greet(name = "Guest") {
     return `Hello, ${name}!`;
-}
-16/ Rest এবং Spread অপারেটর কী এবং এগুলি কীভাবে ব্যবহৃত হয়?
- উত্তর: Rest অপারেটর (...) ফাংশনে একটি অবশিষ্ট প্যারামিটার সংগ্রহ করতে ব্যবহৃত হয়। Spread অপারেটর (...) একটি অ্যারে বা অবজেক্টকে পৃথক উপাদানে বিস্তৃত করতে ব্যবহৃত হয়। উদাহরণ:
-function sum(...numbers) { // Rest অপারেটর
+}</code></pre>
+  </p>
+</details>
+
+<details>
+  <summary><strong>16/ Rest এবং Spread অপারেটর কী এবং এগুলি কীভাবে ব্যবহৃত হয়?</strong></summary>
+  <p>
+    <strong>Rest অপারেটর</strong> (<code>...</code>) ফাংশনে একটি অবশিষ্ট প্যারামিটার সংগ্রহ করতে ব্যবহৃত হয়। 
+    <pre><code>function sum(...numbers) { // Rest অপারেটর
     return numbers.reduce((a, b) => a + b, 0);
-}
-const arr = [1, 2, 3];
-const newArr = [...arr, 4, 5]; // Spread অপারেটর
-17/ Array এবং Object Destructuring কী?
- উত্তর:  Array Destructuring হল একটি সিনট্যাক্স যা JavaScript অ্যারেকে সহজে ভাঙার (extract) জন্য ব্যবহৃত হয়। এটি একটি অ্যারের উপাদানগুলোকে ভেরিয়েবল হিসাবে একসঙ্গে ঘোষণা করতে দেয়।
-const fruits = ["apple", "banana", "orange"];
+}</code></pre>
+    <strong>Spread অপারেটর</strong> (<code>...</code>) একটি অ্যারে বা অবজেক্টকে পৃথক উপাদানে বিস্তৃত করতে ব্যবহৃত হয়। 
+    <pre><code>const arr = [1, 2, 3];
+const newArr = [...arr, 4, 5]; // Spread অপারেটর</code></pre>
+  </p>
+</details>
+
+<details>
+  <summary><strong>17/ Array এবং Object Destructuring কী?</strong></summary>
+  <p>
+    <strong>Array Destructuring</strong> হল একটি সিনট্যাক্স যা JavaScript অ্যারেকে সহজে ভাঙার (extract) জন্য ব্যবহৃত হয়। এটি একটি অ্যারের উপাদানগুলোকে ভেরিয়েবল হিসাবে একসঙ্গে ঘোষণা করতে দেয়।
+    <pre><code>const fruits = ["apple", "banana", "orange"];
 const [first, second] = fruits;
 console.log(first); // আউটপুট: apple
-console.log(second); // আউটপুট: banana
-Object Destructuring হল একটি সিনট্যাক্স যা JavaScript অবজেক্টের প্রোপার্টিগুলোকে সহজে ভাঙার জন্য ব্যবহৃত হয়। এটি অবজেক্টের প্রোপার্টিগুলোকে ভেরিয়েবল হিসাবে একসঙ্গে ঘোষণা করতে দেয়।
-const person = { name: "John", age: 30 };
+console.log(second); // আউটপুট: banana</code></pre>
+    <strong>Object Destructuring</strong> হল একটি সিনট্যাক্স যা JavaScript অবজেক্টের প্রোপার্টিগুলোকে সহজে ভাঙার জন্য ব্যবহৃত হয়। এটি অবজেক্টের প্রোপার্টিগুলোকে ভেরিয়েবল হিসাবে একসঙ্গে ঘোষণা করতে দেয়।
+    <pre><code>const person = { name: "John", age: 30 };
 const { name, age } = person;
 console.log(name); // আউটপুট: John
-console.log(age); // আউটপুট: 30
+console.log(age); // আউটপুট: 30</code></pre>
+  </p>
+</details>
 
-18/ Promises কী এবং এগুলি কীভাবে কাজ করে?
-উত্তর: Promises একটি অবজেক্ট যা ভবিষ্যতে ঘটতে পারে এমন একটি মানের প্রতিনিধিত্ব করে। এটি তিনটি অবস্থায় থাকতে পারে: Pending, Fulfilled, বা Rejected।
-let myPromise = new Promise((resolve, reject) => {
+<details>
+  <summary><strong>18/ Promises কী এবং এগুলি কীভাবে কাজ করে?</strong></summary>
+  <p>
+    <strong>Promises</strong> একটি অবজেক্ট যা ভবিষ্যতে ঘটতে পারে এমন একটি মানের প্রতিনিধিত্ব করে। এটি তিনটি অবস্থায় থাকতে পারে: Pending, Fulfilled, বা Rejected।
+    <pre><code>let myPromise = new Promise((resolve, reject) => {
     // Async operation
     resolve("Success!");
-});
-19/ ES6-এ Modules কীভাবে কাজ করে?
-উত্তর: ES6-এ modules কোডের পুনঃব্যবহারযোগ্য অংশ তৈরির জন্য ব্যবহৃত হয়। export এবং import কিওয়ার্ডের মাধ্যমে ফাংশন, অবজেক্ট, অথবা ভেরিয়েবল অন্য ফাইল থেকে আমদানি বা রপ্তানি করা যায়।
-// myModule.js
+});</code></pre>
+  </p>
+</details>
+
+<details>
+  <summary><strong>19/ ES6-এ Modules কীভাবে কাজ করে?</strong></summary>
+  <p>
+    <strong>ES6-এ modules</strong> কোডের পুনঃব্যবহারযোগ্য অংশ তৈরির জন্য ব্যবহৃত হয়। <code>export</code> এবং <code>import</code> কিওয়ার্ডের মাধ্যমে ফাংশন, অবজেক্ট, অথবা ভেরিয়েবল অন্য ফাইল থেকে আমদানি বা রপ্তানি করা যায়।
+    <pre><code>// myModule.js
 export const myFunction = () => {};
 
 // main.js
-import { myFunction } from './myModule.js';
+import { myFunction } from './myModule.js';</code></pre>
+  </p>
+</details>
 
-20/ Async/Await কী এবং এটি কীভাবে কাজ করে?
-উত্তর: Async/Await হল JavaScript-এ প্রতিশ্রুতি (Promises) এর উপর ভিত্তি করে অ্যাসিনক্রোনাস কোড লেখা সহজ করার একটি উপায়। async কিওয়ার্ড একটি ফাংশনকে অ্যাসিনক্রোনাস হিসেবে চিহ্নিত করে এবং await কিওয়ার্ড Promise-এর ফলাফল পাওয়ার জন্য ব্যবহৃত হয়, যা কোডকে সিঙ্ক্রোনাস মনে করায়।
-async function fetchData() {
+<details>
+  <summary><strong>20/ Async/Await কী এবং এটি কীভাবে কাজ করে?</strong></summary>
+  <p>
+    <strong>Async/Await</strong> হল JavaScript-এ প্রতিশ্রুতি (Promises) এর উপর ভিত্তি করে অ্যাসিনক্রোনাস কোড লেখা সহজ করার একটি উপায়। <code>async</code> কিওয়ার্ড একটি ফাংশনকে অ্যাসিনক্রোনাস হিসেবে চিহ্নিত করে এবং <code>await</code> কিওয়ার্ড Promise-এর ফলাফল পাওয়ার জন্য ব্যবহৃত হয়, যা কোডকে সিঙ্ক্রোনাস মনে করায়।
+    <pre><code>async function fetchData() {
     try {
         const response = await fetch('https://api.example.com/data');
         const data = await response.json();
         console.log(data);
-  } catch (error) {
+    } catch (error) {
         console.error('Error fetching data:', error);
     }
 }
-fetchData()
+fetchData()</code></pre>
+  </p>
+</details>
+
