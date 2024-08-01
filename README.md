@@ -771,3 +771,58 @@ fetchData()</code></pre>
   <summary><strong>10/ Reconciliation-এর সময় কোন ধরনের পদ্ধতি ব্যবহার করা হয়?</strong></summary>
   <p>উত্তর: Reconciliation-এর সময় React "diffing" পদ্ধতি ব্যবহার করে। এটি নতুন এবং পুরনো Virtual DOM-এর মধ্যে পার্থক্য চিহ্নিত করে এবং শুধুমাত্র প্রয়োজনীয় আপডেটগুলি করে।</p>
 </details>
+
+## Component-based Architecture
+
+<details>
+  <summary><strong>11/ Component-based architecture কী?</strong></summary>
+  <p>উত্তর: Component-based architecture হল একটি ডিজাইন প্যাটার্ন যেখানে একটি অ্যাপ্লিকেশন ছোট, পুনঃব্যবহারযোগ্য উপাদানে বিভক্ত থাকে। প্রতিটি কম্পোনেন্টের নিজস্ব স্টেট এবং লজিক থাকে।</p>
+</details>
+
+<details>
+  <summary><strong>12/ React-এর Component-based architecture-এর সুবিধা কী কী?</strong></summary>
+  <p>উত্তর: সুবিধাগুলির মধ্যে রয়েছে পুনঃব্যবহারযোগ্যতা, উন্নত মডুলারিটি, সহজ রক্ষণাবেক্ষণ, এবং উন্নত স্কেলেবিলিটি।</p>
+</details>
+
+<details>
+  <summary><strong>13/ কিভাবে একটি কম্পোনেন্ট তৈরি করা হয়?</strong></summary>
+  <p>উত্তর: একটি কম্পোনেন্ট React.createElement() অথবা JSX ব্যবহার করে তৈরি করা হয়। উদাহরণস্বরূপ:</p>
+  <pre><code>function MyComponent() {
+  return &lt;div&gt;Hello, World!&lt;/div&gt;;
+}</code></pre>
+</details>
+
+<details>
+  <summary><strong>14/ Stateful কম্পোনেন্ট এবং Stateless কম্পোনেন্টের মধ্যে পার্থক্য কী?</strong></summary>
+  <p>উত্তর: Stateful কম্পোনেন্টের নিজস্ব স্টেট থাকে, যা UI আপডেটের জন্য ব্যবহৃত হয়। Stateless কম্পোনেন্ট শুধুমাত্র প্রপস গ্রহণ করে এবং UI প্রদর্শন করে, স্টেট পরিচালনা করে না।</p>
+</details>
+
+<details>
+  <summary><strong>15/ React-এ কম্পোনেন্ট কীভাবে পুনঃব্যবহারযোগ্য হয়?</strong></summary>
+  <p>উত্তর: কম্পোনেন্ট পুনঃব্যবহারযোগ্য হয় কারণ এটি পৃথকভাবে ডিজাইন করা হয় এবং বিভিন্ন অংশে একই কম্পোনেন্ট ব্যবহার করা যেতে পারে।</p>
+</details>
+
+<details>
+  <summary><strong>16/ Props কি এবং এটি কীভাবে কাজ করে?</strong></summary>
+  <p>উত্তর: Props হল একটি কম্পোনেন্টের সাথে ডেটা পাঠানোর উপায়। এটি প্যারেন্ট কম্পোনেন্ট থেকে চাইল্ড কম্পোনেন্টে ডেটা প্রেরণ করতে ব্যবহৃত হয়।</p>
+</details>
+
+<details>
+  <summary><strong>17/ React-এর Lifecycle methods কী?</strong></summary>
+  <p>উত্তর: Lifecycle methods হল কম্পোনেন্টের জীবনচক্রের বিভিন্ন পর্যায়ে কল করা হয়। যেমন componentDidMount(), componentDidUpdate(), এবং componentWillUnmount()।</p>
+</details>
+
+<details>
+  <summary><strong>18/ Functional কম্পোনেন্ট এবং Class কম্পোনেন্টের মধ্যে পার্থক্য কী?</strong></summary>
+  <p>উত্তর: Functional কম্পোনেন্ট সাধারণত লাইটওয়েট এবং সহজ হয়, যেখানে Class কম্পোনেন্ট স্টেট এবং লাইফসাইকেল মেথডস সহ উন্নত ফিচার প্রদান করে।</p>
+</details>
+
+<details>
+  <summary><strong>19/ কি কারণে React-এর কম্পোনেন্ট ডিজাইন করা হয়?</strong></summary>
+  <p>উত্তর: React-এর কম্পোনেন্ট ডিজাইন করা হয় যাতে অ্যাপ্লিকেশনটি সহজে মডুলার, পুনঃব্যবহারযোগ্য, এবং রক্ষণাবেক্ষণযোগ্য হয়।</p>
+</details>
+
+<details>
+  <summary><strong>20/ React-এ Higher-Order Components কী?</strong></summary>
+  <p>উত্তর: Higher-Order Components (HOCs) হল এমন একটি ফাংশন যা একটি কম্পোনেন্ট গ্রহণ করে এবং নতুন ফিচারসহ একটি নতুন কম্পোনেন্ট প্রদান করে। এটি কোড পুনঃব্যবহারযোগ্যতা বাড়াতে সাহায্য করে।</p>
+</details>
