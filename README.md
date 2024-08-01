@@ -4,7 +4,7 @@
 - [HTML](#html)
 - [CSS](#css)
 - [JavaScript](#javascript)
-- [Conclusion](#React)
+- [React](#React)
 
 ## html
 <details>
