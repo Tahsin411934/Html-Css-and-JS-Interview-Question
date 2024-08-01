@@ -4,7 +4,7 @@
 - [HTML](#html)
 - [CSS](#css)
 - [JavaScript](#javascript)
-- [Conclusion](#conclusion)
+- [Conclusion](#React)
 
 ## html
 <details>
@@ -716,3 +716,58 @@ fetchData()</code></pre>
   </p>
 </details>
 
+## React
+
+# React Interview Questions
+
+## Concept of Reconciliation
+
+<details>
+  <summary><strong>1/ Reconciliation কী?</strong></summary>
+  <p>উত্তর: Reconciliation হল React-এর একটি প্রক্রিয়া যা উপাদানগুলির মধ্যে পার্থক্য নির্ধারণ করে এবং কেবলমাত্র পরিবর্তিত অংশগুলি DOM-এ আপডেট করে। এটি পারফরম্যান্স উন্নত করতে সাহায্য করে এবং দ্রুত UI রেন্ডারিং নিশ্চিত করে।</p>
+</details>
+
+<details>
+  <summary><strong>2/ Reconciliation কীভাবে কাজ করে?</strong></summary>
+  <p>উত্তর: React-এর Reconciliation প্রক্রিয়া Virtual DOM ব্যবহার করে। যখন একটি কম্পোনেন্ট আপডেট হয়, React প্রথমে Virtual DOM আপডেট করে এবং পরে মূল DOM-এ প্রয়োজনীয় পরিবর্তনগুলি প্রয়োগ করে।</p>
+</details>
+
+<details>
+  <summary><strong>3/ Key prop কি এবং এটি Reconciliation-এ কীভাবে সাহায্য করে?</strong></summary>
+  <p>উত্তর: Key prop একটি ইউনিক আইডেন্টিফায়ার যা React কে উপাদানগুলির মধ্যে পার্থক্য নির্ধারণ করতে সাহায্য করে। এটি তালিকা (list) উপাদানের মধ্যে দ্রুত এবং কার্যকরী আপডেট নিশ্চিত করে।</p>
+</details>
+
+<details>
+  <summary><strong>4/ পুনরায় রেন্ডারিং কেন প্রয়োজন?</strong></summary>
+  <p>উত্তর: পুনরায় রেন্ডারিং প্রয়োজন যখন কোন উপাদান বা কম্পোনেন্টের স্টেট বা প্রপস পরিবর্তিত হয়। এটি ব্যবহারকারীর পরিবর্তনগুলি UI তে প্রতিফলিত করতে সাহায্য করে।</p>
+</details>
+
+<details>
+  <summary><strong>5/ Reconciliation-এর সময় কি DOM-এ পুরোপুরি পুনর্লিখন করা হয়?</strong></summary>
+  <p>উত্তর: না, Reconciliation-এর সময় DOM সম্পূর্ণরূপে পুনর্লিখন করা হয় না। কেবলমাত্র পরিবর্তিত অংশগুলি আপডেট করা হয়।</p>
+</details>
+
+<details>
+  <summary><strong>6/ Virtual DOM কিভাবে Reconciliation প্রক্রিয়া ত্বরান্বিত করে?</strong></summary>
+  <p>উত্তর: Virtual DOM একটি মেমোরি-ভিত্তিক রিপ্রেজেন্টেশন যা মূল DOM-এ পরিবর্তন করার আগে সমস্ত পরিবর্তন যাচাই করতে সাহায্য করে। এটি পরিবর্তনগুলিকে একত্রিত করে এবং পরে একসাথে প্রয়োগ করে।</p>
+</details>
+
+<details>
+  <summary><strong>7/ কিভাবে React কম্পোনেন্টের পারফরম্যান্স উন্নত করা যায়?</strong></summary>
+  <p>উত্তর: React কম্পোনেন্টের পারফরম্যান্স উন্নত করতে React.memo, PureComponent, এবং shouldComponentUpdate() ব্যবহার করা যেতে পারে।</p>
+</details>
+
+<details>
+  <summary><strong>8/ Functional কম্পোনেন্টে Reconciliation কীভাবে কাজ করে?</strong></summary>
+  <p>উত্তর: Functional কম্পোনেন্টে Reconciliation সাধারণভাবে কাজ করে যেমন ক্লাস কম্পোনেন্টে। Virtual DOM এবং Key prop ব্যবহার করে শুধুমাত্র পরিবর্তিত অংশ আপডেট করা হয়।</p>
+</details>
+
+<details>
+  <summary><strong>9/ Reconciliation প্রক্রিয়া কি সমানভাবে সকল ব্রাউজারে কাজ করে?</strong></summary>
+  <p>উত্তর: হ্যাঁ, Reconciliation প্রক্রিয়া সকল আধুনিক ব্রাউজারে একীভূতভাবে কাজ করে, যেহেতু এটি JavaScript-এ ভিত্তি করে এবং ব্রাউজারের DOM API-র সাথে কাজ করে।</p>
+</details>
+
+<details>
+  <summary><strong>10/ Reconciliation-এর সময় কোন ধরনের পদ্ধতি ব্যবহার করা হয়?</strong></summary>
+  <p>উত্তর: Reconciliation-এর সময় React "diffing" পদ্ধতি ব্যবহার করে। এটি নতুন এবং পুরনো Virtual DOM-এর মধ্যে পার্থক্য চিহ্নিত করে এবং শুধুমাত্র প্রয়োজনীয় আপডেটগুলি করে।</p>
+</details>
