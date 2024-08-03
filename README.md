@@ -826,3 +826,7 @@ fetchData()</code></pre>
   <summary><strong>20/ React-এ Higher-Order Components কী?</strong></summary>
   <p>উত্তর: Higher-Order Components (HOCs) হল এমন একটি ফাংশন যা একটি কম্পোনেন্ট গ্রহণ করে এবং নতুন ফিচারসহ একটি নতুন কম্পোনেন্ট প্রদান করে। এটি কোড পুনঃব্যবহারযোগ্যতা বাড়াতে সাহায্য করে।</p>
 </details>
+
+
+
+
